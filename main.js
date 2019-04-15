@@ -29,8 +29,8 @@ var testLayer = L.tileLayer.wms(testWMS, {
     transparent: true,
     style: 'boxfill/sst_36',
     colorscalerange: '-3,35',
-    abovemaxcolor: "extend",
-    belowmincolor: "extend",
+//    abovemaxcolor: "extend",
+//    belowmincolor: "extend",
     attribution: '<a href="http://www.ncdc.noaa.gov">NOAAs National Climatic Data Center</a>'
 });
 
